@@ -60,7 +60,7 @@ RUN \
   echo "**** grab emulatorjs blobs ****" && \
   curl -o \
     /tmp/emulatorjs-blob.tar.gz -L \
-    "https://github.com/thelamer/emulatorjs/archive/main.tar.gz" && \
+    "https://github.com/StarkCoba/emulatorjs/archive/main.tar.gz" && \
   tar xf \
     /tmp/emulatorjs-blob.tar.gz -C \
     /emulatorjs/frontend/ --strip-components=1
